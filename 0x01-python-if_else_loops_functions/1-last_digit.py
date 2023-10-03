@@ -8,7 +8,7 @@ else:
     lastdigit = number % 10
 
 if lastdigit > 5:
-    st = "and is greter than 5"
+    st = "and is greater than 5"
 elif lastdigit == 0:
     st = "and is 0"
 else:
