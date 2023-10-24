@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
 """Size validation"""
 
 
@@ -13,6 +12,5 @@ class Square:
         else:
             self.__size = size
 
- 
-    def __init__(self, area):
+    def area(self):
         return self.__size ** 2
