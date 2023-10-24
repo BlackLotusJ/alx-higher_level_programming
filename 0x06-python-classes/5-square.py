@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Access and update private attribute"""
+"""Printing a square"""
 
 
 class Square:
@@ -23,9 +23,9 @@ class Square:
     def area(self):
         return self.__size ** 2
 
-    """prints out the squre with the charcter #"""
+    """prints in stdout the square with the character #"""
     def my_print(self):
-        if self.__size = 0:
+        if self.__size == 0:
             print()
 
         for i in range(self.__size):
