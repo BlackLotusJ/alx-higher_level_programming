@@ -21,9 +21,11 @@ class Rectangle:
         width: An integer indicating the width of the rectangle object.
         height: An integer indicating the height of the rectangle object.
         number_of_instances(pub): An interger indicating the number of objects.
+        print_symbol(pub): Used as symbol for string representation.
     """
 
     number_of_instances = 0
+    print_symbol = "#"
 
     def __init__(self, width=0, height=0):
         """An object constructor method.
@@ -48,7 +50,7 @@ class Rectangle:
         rec_str = ""
         for i in range(self.__height):
             for j in range(self.__width):
-                rec_str += "#"
+                rec_str += str(self.print_symbol)
             rec_str += "\n"
         return rec_str[:-1]
 
