@@ -1,1 +1,1 @@
-This is a repo for the ALX_SE program Higher level Programming
+0x08-python-more_classes
