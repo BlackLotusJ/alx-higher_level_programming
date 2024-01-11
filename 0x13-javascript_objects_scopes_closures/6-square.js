@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const SquareP = require('./5-square');
+const SquareX = require('./5-square');
 
 class Square extends SquareX {
   charPrint (c) {
